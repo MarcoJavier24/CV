@@ -3,73 +3,66 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Marco Web's site</title>
+  <title>Marco's site</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sacramento&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td><img src="Marco-modified.png" alt="Imagen de Marco"></td>
-      <td>
-        <h1>Marco Saucedo</h1>
-        <p><em><strong>Ingeniero mecanico</strong> con especialidad en diseno y automatizacion industrial</em></p>
-        <p>Ingeniero mecanico egresado del <a href="https://aguascalientes.tecnm.mx/">Instituto Tecnologico de Aguascalientes</a>, con una gran tenacidad y unas enormes ganas de cambiar el mundo para mejor,<br> como el solia pensar pero que al final
-          su vida dio un giro de 180 grados al concluir sus
-          estudios dandose cuenta de que la realidad no era como el la esperaba</p>
-      </td>
-    </tr>
-  </table>
-  <hr size=5 noshade>
-  <h3><strong>Educacion</strong></h3>
-  <ul>
-    <li><em>Ingenieria mecanica:</em> Estudios realizados en el Instituto Tecnologico de Aguascalientes <br></li>
-    <li><em>Bachillerato en programacion:</em> Estudios realizados en el centro de bachilleres tecnologico, industrial y de servicios</li>
-  </ul>
-  <hr size=5 noshade>
-  <h3>Hobbies</h3>
-  <ol>
-    <li><a href="https://www.campingmexico.com.mx/">Hacer camping</a></li>
-    <li>Estudiar</li>
-    <li><a href="https://www.netflix.com/mx/">Ver series</a></li>
-  </ol>
-  <hr size=5 noshade>
-  <h3><a href="contactme.html">My contact</a></h3>
-  <hr size=5 noshade>
-  <h3>Laboral experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <td><strong>Ano</strong></td>
-        <td><strong>Cargo</strong></td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2020-2020</td>
-        <td>Auxiliar de diseno</td>
-      </tr>
-      <tr>
-        <td>2021-2022</td>
-        <td>Auxiliar de mantenimiento</td>
-      </tr>
-    </tbody>
-  </table>
-    <hr size=5 noshade>
-  <h3><strong>Skills</strong></h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Programming</td>
-      <td>★★★★★</td>
-      <td>Maintanence</td>
-      <td>★★</td>
-    </tr>
-    <tr>
-      <td>Mechanical design</td>
-      <td>★★★★★</td>
-      <td>Drawing</td>
-      <td>★★</td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png"
+      alt="cloudimg">
+    <h1>Marco Saucedo</h1>
+    <h2 class="h2-head">An enginner, programmer and dreamer</h2>
+    <img class="bottom-cloud" src="images/cloud.png"
+      alt="cloudimg">
+    <img src="images/mountain.png" alt="mountainimg">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <h2>Hello.</h2>
+      <img class="profile-img" src="images/Marco.png"
+        alt="">
+      <p class="intro">Hi, my name is Marco Javier Saucedo De Luna, i'm 25 and i'm mechanical engineer I have expierence in database from excel and mechanical design, currenctly i've taken programming classes 'cause i realize how big is the world of the computer and how much i love it</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="gif-programmer" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="">
+        <h3>Programmer</h3>
+        <p>Knowledge in programming languague like Java, Python and JavaScript, Strong knowledge in HTML and CSS. Basics knowledge in Mysql, Sql, MariaDB, Angular, SpringBoot and knowledgeabout GNU/LINUX OS and Windows OS.
+        </p>
+      </div>
+      <div class="skill-row">
+        <img class="gif-mechanical" src="https://media.giphy.com/media/3oEdv3XwnNuWuyTBy8/giphy.gif" alt="">
+        <h3>Mechanical Designer</h3>
+        <p>Strong knowledge in CAD software like Solidworks, in technical drwaing, medium knowledge about Autocad and
+          Inventor, in industrial maintnance.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <img class="contact-img"
+        src="images/smartphone.png" alt="">
+      <h2>Get In Touch</h2>
+      <h3>There are many forms to contact me</h3>
+      <p class="contactm">Let me know if you wanna contact me in my email and my social media below.</p>
+      <a class="btn" href="marcojaviersaucedodeluna@hotmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="linkedin" href="https://mx.linkedin.com/in/marco-javier-saucedo-de-luna-a25096229/en?trk=people-guest_people_search-card">LinkedIn</a>
+    <a class="facebook" href="https://es-la.facebook.com/saucedodeluna">Facebook</a>
+    <p class="copyright">© Marco Saucedo.</p>
+  </div>
+
 </body>
 
 </html>
